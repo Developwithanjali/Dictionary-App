@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    /* background-color:rgb(11, 132, 148); */
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+h1 {
+    padding: 10px;
+    font-size: 3rem;
+    color: rgb(255, 191, 0);
+    text-shadow: 2px 2px 2px black;
+}
+
+input {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid rgb(255, 191, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(255, 191, 0);
+    border: 2px solid rgb(255, 191, 0);
+    /* border-color: 2px solid black; */
+    margin-left: -5px;
+    cursor: pointer;
+    width: 80px;
+    font-weight: bold;
+}
+
+.speech-box {
+    height: 420px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 2px 2px 6px black;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:white;   
+
+}
+/* styling of inside the box */
+.heading1{
+    font-size: 2rem;
+}
